@@ -1,6 +1,6 @@
 const express = require('express')
 const Router = express.Router()
-const comprasControllers = require('../controllers/comprasControllers')
+const comprasControllers = require('../controllers/compras/comprasControllers')
 
 Router.get('/', comprasControllers.getCompras);
 Router.post('/', comprasControllers.createCompra)

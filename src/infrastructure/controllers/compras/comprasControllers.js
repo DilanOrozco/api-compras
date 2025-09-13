@@ -1,9 +1,9 @@
-const CompraRepositoyModel = require('../repositories/CompraRepositoryModel')
-const GetCompras = require('../../application/use-cases/GetCompras')
-const CreateCompra = require('../../application/use-cases/CreateCompra')
-const GetCompraById = require('../../application/use-cases/GetCompraById')
-const DeleteCompra = require('../../application/use-cases/DeleteCompra')
-const UpdateCompra = require('../../application/use-cases/UpdateCompra')
+const CompraRepositoyModel = require('../../repositories/CompraRepositoryModel')
+const GetCompras = require('../../../application/use-cases/compras/GetCompras')
+const CreateCompra = require('../../../application/use-cases/compras/CreateCompra')
+const GetCompraById = require('../../../application/use-cases/compras/GetCompraById')
+const DeleteCompra = require('../../../application/use-cases/compras/DeleteCompra')
+const UpdateCompra = require('../../../application/use-cases/compras/UpdateCompra')
 
 const comprasRepository = new CompraRepositoyModel();
 
